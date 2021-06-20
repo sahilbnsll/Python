@@ -44,4 +44,12 @@ else:
 if(myAge>60 or myAge<60):
     print("You're eligible")
 else:
-    print("You're not eligible")        
+    print("You're not eligible")       
+
+
+# 'is' and 'in' in python
+s = None
+if(s is None):
+    print("Yes")
+else:
+    print("NO")
