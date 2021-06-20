@@ -123,9 +123,28 @@ else:
 
 
 # Problem 5. name is present in list or not
+
 mylist = ["sahil","dhruv","kshitij","mukul","abhay","ankush","anurag","ayush"]
 myname = input("Enter a Name:\n")
 if(myname in mylist):
     print(myname, "is present in my List")
 else:
     print(myname, "is not present in my List")    
+
+# Problem 6. Student grades
+
+mark = int(input("Enter your marks: "))
+
+if(mark >= 90):
+    print("Your grade is O")
+elif (mark >= 80):
+    print("Your grade is A")
+elif (mark >= 70):
+    print("Your grade is B")
+elif (mark >= 60):
+    print("Your grade is C")
+elif (mark >= 50):
+    print("Your grade is D")
+else :
+    print("Your grade is F")
+    
