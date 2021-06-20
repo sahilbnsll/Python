@@ -9,7 +9,7 @@ elif(a>25):
     print("Value of a is Greater than 25")
 elif(a>35):
     print("Value of a is Greater than 35")
-else:
+else:     ##else is optional in program. if we don't make else and if or elif both conditions not satisfy then will not run
     print("Value of a is not Greater than 5,15,25,35")
 
 
@@ -48,6 +48,7 @@ else:
 
 
 # 'is' and 'in' in python
+
 s = None
 if(s is None):
     print("Yes")
@@ -56,3 +57,39 @@ else:
 
 b = [45,76,24,90,12]
 print(45 in b)  # Returns True or False Values
+
+# Problem 1. greatest of four number entered by user
+
+num1 = int(input("Enter Number 1: "))
+num2 = int(input("Enter Number 2: "))
+num3 = int(input("Enter Number 3: "))
+num4 = int(input("Enter Number 4: "))
+
+if(num1>num2):
+    f1 = num1
+else:
+    f1 = num2    
+
+if(num3>num4):
+    f2 = num3
+else:
+    f2 = num4
+
+if(f1>f2):
+    print(f1, "is Greatest")
+else:
+    print(f2, "is Greatest")    
+
+
+# problem 2. student pass or fail
+
+sub1 = int(input("Enter marks in subject 1:"))
+sub2 = int(input("Enter marks in subject 2:"))
+sub3 = int(input("Enter marks in subject 3:"))
+total=(sub1+sub2+sub3)/3
+if(sub1<33 or sub2<33 or sub3<33):
+    print("You are Fail because you have less than 33% in one of the subjects")
+elif(total<40):
+    print("You are Fail because you don't pass the criteria of 40%")
+else:
+    print("Congratulations!, You Passed the exam")    
