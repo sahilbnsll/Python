@@ -1,0 +1,2 @@
+I am Writing this to the file sample03.txt
+I am appending
