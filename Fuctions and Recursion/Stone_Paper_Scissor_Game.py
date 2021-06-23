@@ -1,4 +1,5 @@
 # Rock Paper Scissor Game
+
 import random   # importing ramdom module so that computer can choose random values
 def gameWin(comp, you):
     if comp == you:  # When computer and you choose same 
