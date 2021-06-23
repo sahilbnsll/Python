@@ -7,20 +7,20 @@ f = open('sample02.txt')
 data = f.readline()
 print(data)
 
-# # reads second line
-# data = f.readline()
-# print(data)
+# reads second line
+data = f.readline()
+print(data)
 
-# # reads third line
-# data = f.readline()
-# print(data)
+# reads third line
+data = f.readline()
+print(data)
 
-# # reads fourth line
-# data = f.readline()
-# print(data)
+# reads fourth line
+data = f.readline()
+print(data)
 
-# # reads fifth line and so on.....
-# data = f.readline()
-# print(data)
+# reads fifth line and so on.....
+data = f.readline()
+print(data)
 
 f.close()
