@@ -6,3 +6,4 @@ if(word in post.lower()):
     print("This post is about India")
 else:    
     print("This post is not about India")
+    
