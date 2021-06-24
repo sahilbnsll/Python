@@ -1,3 +1,5 @@
+# Problem 3. Replace Bad words with sensors.
+
 with open('problem03.txt') as f:
     content = f.read()
 
