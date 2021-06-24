@@ -7,3 +7,4 @@ if(word in p.lower()):
     print(f"'{word}' is present in file")
 else:
     print(f"'{word}' is not present in file")
+
