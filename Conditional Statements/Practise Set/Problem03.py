@@ -14,3 +14,4 @@ if(spam):
     print("This text is SPAM") 
 else:
     print("This text is not SPAM")
+    
