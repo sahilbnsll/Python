@@ -1,3 +1,5 @@
+# Problem 2. program that prints the highscore using random module
+
 import random
 randNo = random.randint(1,10000)
 
@@ -26,5 +28,6 @@ elif int(score)>int(highScore) :
     print(f"Updated HighScore is: {randNo}")
 
 print(f"Previous Highscore is: {str(highScore)}")    
+
 
 
