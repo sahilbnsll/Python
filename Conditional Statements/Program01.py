@@ -3,6 +3,7 @@
 a = 50
 
 # 1. if-elif-else Ladder in Python
+
 if(a>5):
     print("Value of a is Greater than 5")    
 elif(a>15):
