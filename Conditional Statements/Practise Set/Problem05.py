@@ -6,3 +6,4 @@ if(myname in mylist):
     print(myname, "is present in my List")
 else:
     print(myname, "is not present in my List")    
+
