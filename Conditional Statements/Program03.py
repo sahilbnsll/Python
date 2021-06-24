@@ -3,6 +3,7 @@
 s = None
 if(s is None):
     print("Yes")
+
 else:
     print("NO")
 
