@@ -10,3 +10,4 @@ elif(total<40):
     print("You are Fail because you don't pass the criteria of 40%")
 else:
     print("Congratulations!, You Passed the exam")    
+
