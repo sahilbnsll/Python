@@ -1,4 +1,4 @@
-# Checking if Text Files are Identical or not
+# Problem 7. Checking if Text Files are Identical or not
 
 file1 = 'problem01.txt'
 file2 = 'problem07.txt'
