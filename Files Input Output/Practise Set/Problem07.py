@@ -1,3 +1,5 @@
+# Checking if Text Files are Identical or not
+
 file1 = 'problem01.txt'
 file2 = 'problem07.txt'
 
@@ -11,3 +13,4 @@ if f1 == f2:
     print("Files are Identical")
 else:
     print("Files are not Identical")
+
