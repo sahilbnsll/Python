@@ -1,6 +1,7 @@
 #  Logical and relational operators in conditional statements
   
 myAge=int(input("Enter your Age: "))
+
 if(myAge>=18 and myAge<=60):
     print("You're eligible to work with us")
 else:
