@@ -2,6 +2,7 @@
                                     #                             *   *             
                                              #                    * * * 
 
+
 n=3
 for i in range(n):
     print("x" * (2*n-2*i-3),end="")
