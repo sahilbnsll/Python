@@ -1,6 +1,8 @@
-# # Problem 8. Star Pattern  *
-#                           ***
-#                          *****
+'''    
+       Problem 8. Star Pattern  *
+                               ***
+                              *****
+'''
 
 num=int(input("Enter a Number: "))
 for i in range(num):
