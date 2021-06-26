@@ -1,4 +1,4 @@
-# Problem 3. Problem 1 in while loop 
+# Problem 3. Problem 1 in while loop.
 
 i=1
 num=int(input("Enter a Number: "))
