@@ -1,4 +1,4 @@
-# Problem 1. Multiplication Table
+# Problem 1. Multiplication Table.
 
 i=1
 num=int(input("Enter a number: "))
