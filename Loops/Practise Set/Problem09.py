@@ -1,7 +1,9 @@
-# Problem 9. Write a program to print the following star pattern: * * *
-                                    #                             *   *             
-                                             #                    * * * 
+''' 
+  Problem 9. Write a program to print the following star pattern: * * *
+                                                                  *   *             
+                                                                  * * * 
 
+'''
 
 n=3
 for i in range(n):
