@@ -16,6 +16,5 @@ print(l1)
 l1.pop(2) #Removes element at index 2
 print(l1)
 
-
 l1.remove(69) #Removes 69 from the list
 print(l1)
