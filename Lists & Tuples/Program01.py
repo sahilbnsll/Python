@@ -1,5 +1,6 @@
 # Basic About Lists in Python
 
+
 # Creating the List using []
 a = [24, 12 ,17]
 
