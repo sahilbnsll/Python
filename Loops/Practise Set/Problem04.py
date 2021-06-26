@@ -1,4 +1,4 @@
-# Problem 4. Checking prime number
+# Problem 4. Checking prime number.
 
 num=int(input("Enter a Number: "))
 prime = True
