@@ -1,4 +1,4 @@
-# quick example
+# quick example of while loop
 a=1
 while a<=50:
     print(a)
