@@ -1,4 +1,4 @@
-# Problem 6. factorial of number
+# Problem 6. factorial of number.
 
 num=int(input("Enter a Number: "))
 fact = 1
