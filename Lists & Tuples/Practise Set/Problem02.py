@@ -1,4 +1,4 @@
- # Sorting Marks of 6 Students using sort() in Python
+ # Problem 2. Sorting Marks of 6 Students using sort() in Python
 
 m1 = int(input("Enter marks of student number 1: "))
 m2 = int(input("Enter marks of student number 2: "))
