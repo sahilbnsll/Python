@@ -1,4 +1,4 @@
-# Problem 5. sum of first n Natural numbers using while loop
+# Problem 5. sum of first n Natural numbers using while loop.
 
 num=int(input("Enter a Number: "))
 sum = 0 
