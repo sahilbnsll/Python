@@ -1,4 +1,4 @@
-# example- Priniting content of a list using for loop
+# For Loop in Python
 car = ['BMW', 'Bugatti','Mercedes','Audi','Ford','Ferrari']
 for item in car:
     print(item)
