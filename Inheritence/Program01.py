@@ -9,6 +9,7 @@ class Employee:
 
 class Programmer(Employee):
     language="Python"
+    company= "Youtube"
 
     def getLanguage(self):
         print(f"The Language is {self.language}")
@@ -25,3 +26,5 @@ p.showDetails()    # Prints same content as e.showDetails because Programmer cla
 print(p.company)   # Prints "Google Inc." as Programmer class doesn't have company, so programmer class inherit company from Base class Employee.
 
 p.showDetails() # Prints "This is Programmer Class" as this time showDetails() is present in Programmer Class.
+
+print(p.company) # Prints "Youtube" as this time company is present in Programmer Class.
