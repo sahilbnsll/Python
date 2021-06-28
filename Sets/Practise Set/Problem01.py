@@ -1,4 +1,4 @@
-# problem - print 8 unique numbers entered by user
+# Problem 1.- print 8 unique numbers entered by user
 
 
 num1 = int(input("Enter number 1: "))
