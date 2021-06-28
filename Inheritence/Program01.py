@@ -19,5 +19,4 @@ e.showDetails()
 p = Programmer()
 p.showDetails()    # Prints same content as e.showDetails because Programmer class doesn't have showDetails() so programmer class inherit showDetails() function from Employee class.
 
-
-
+print(p.company)   # Prints "Google Inc." as Programmer class doesn't have company, so programmer class inherit company from Employee class.
