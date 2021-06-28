@@ -40,3 +40,38 @@ p.upgradeLevel()
 print(p.level)
 print(p.ecode)
 print(p.company)
+
+
+
+# Multi-Level Inheritance
+
+class Person:
+    country = "India"
+
+    def takeBreath(self):
+        print("I'm Breathing...")
+
+class Employee(Person):
+    company = "Audi"
+    name = "Sahil"
+
+    def getSalary(self):
+        print(f"Salary is {self.salary}")
+
+    def takeBreath(self):
+        print(f"I'm {self.name} & I'm also Breathing...")
+
+class Programmer(Employee):
+    company = "BMW"
+    def getSalary(self):
+        print("No Salary for Programmer")
+
+
+p = Person()
+p.takeBreath()
+e = Employee()
+pr = Programmer()
+pr.takeBreath()
+print(pr.company)
+print(pr.country)
+
