@@ -17,5 +17,7 @@ class Programmer(Employee):
 e = Employee()
 e.showDetails()
 p = Programmer()
+p.showDetails()    # Prints same content as e.showDetails because Programmer class doesn't have showDetails() so programmer class inherit showDetails() function from Employee class.
+
 
 
