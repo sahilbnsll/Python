@@ -1,7 +1,6 @@
 # Methods in Sets
 
 a = {1,5,4,8,9} 
-
 b = {} # not an empty set
 print(type(b)) # It will return a class dictionary
 
