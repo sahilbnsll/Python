@@ -1,3 +1,5 @@
+# self Attribute Example 
+
 class Employee:
     company= "Google Inc."
     salary = 30000
