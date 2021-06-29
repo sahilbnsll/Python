@@ -1,3 +1,5 @@
+# Problem 4. Adding a static method to greet the user in problem 2.
+
 class Calculator:
     def __init__(self,num,name):
         self.names = name
