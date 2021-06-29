@@ -1,3 +1,5 @@
+# __init__ Function
+
 class Employee:
     company= "Google Inc."
     
