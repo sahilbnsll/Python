@@ -1,3 +1,5 @@
+# Static Method
+
 class Employee:
     company= "Google Inc."
     def getSalary(self, signature):
