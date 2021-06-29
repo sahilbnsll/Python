@@ -1,3 +1,5 @@
+# Problem 2. Creating a class Calculator capable of finding sq. ,cube & sq. roots
+
 class Calculator:
     def __init__(self,num):
         self.number = num
