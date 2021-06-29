@@ -1,3 +1,5 @@
+# Problem 1. Creating a Class for storing information for other Programmers.
+
 class Programmer:
     company = "Microsoft Corporation"
     def __init__(self, name, salary,product):
