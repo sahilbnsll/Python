@@ -1,3 +1,5 @@
+# Problem 5. Creating a Class train which has methods to book tickets, get status and get fare info.
+
 class Train:
     def __init__(self,myName,name,fare,seats):
         self.myName = myName
