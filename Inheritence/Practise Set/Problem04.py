@@ -9,7 +9,7 @@ class Complex:
         return Complex(self.real + c.real, self.imaginary+ c.imaginary)
     
     def __mul__(self,c):
-        return Complex(self.real * c.real + self.imaginary * c.imaginary, self.imaginary * c.real + self.real * c.imaginary)
+        return Complex(self.real * c.real - self.imaginary * c.imaginary, self.imaginary * c.real - self.real * c.imaginary)
 
     def __str__(self):
         return f"{self.real} + {self.imaginary}i"    
