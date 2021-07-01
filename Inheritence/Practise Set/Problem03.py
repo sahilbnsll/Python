@@ -1,4 +1,5 @@
-# Problem 4. Write a method with a property decorator with a setter with changes the value of increment based on salary.
+# Problem 3. Write a method with a property decorator with a setter with changes the value of increment based on salary.
+
 
 class Employee:
     salary = 1000
