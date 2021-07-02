@@ -1,4 +1,4 @@
-# try-Except Statements
+# try-except Statements
 
 try:
     a = 10
